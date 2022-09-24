@@ -20,3 +20,8 @@ h1, h2 {
     letter-spacing: 5px;
     color: rgba(175, 127, 6, 0.685);
 }
+
+#logo {
+    float: left;
+    font-size: 250%;
+}
