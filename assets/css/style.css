@@ -18,10 +18,23 @@ h1, h2 {
     font-family: josefin, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: rgba(175, 127, 6, 0.685);
+    color: rgba(126, 91, 3, 0.685);
 }
 
 #logo {
     float: left;
     font-size: 250%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 5px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right; 40px
 }
