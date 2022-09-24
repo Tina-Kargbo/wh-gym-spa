@@ -5,7 +5,18 @@
     padding: 0;
     border: none;
 }
+
 body {
     font-family: josefin, sans-serif;
     font-weight: 400;
+    color: darkgoldenrod;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: josefin, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgba(175, 127, 6, 0.685);
 }
