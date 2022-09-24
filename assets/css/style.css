@@ -40,7 +40,7 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right; 40px
+    margin-right: 40px;
 }
 
 #menu a {
