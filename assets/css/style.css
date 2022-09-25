@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 35px;
 }
 
 /* navigation links */
@@ -61,4 +62,14 @@ h1, h2 {
     width: 100%;
     background: url('../images/pexels-jess-loiterton-400.jpg') center center;
     background-repeat: no-repeat;
+}
+
+/* About section */
+
+.about-section {
+    
+}
+
+#about-list {
+    list-style-type: circle;
 }
