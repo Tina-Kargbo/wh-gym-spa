@@ -87,33 +87,26 @@ h1, h2 {
     position: absolute;
 }
 
-/* info section */
+/* about section */
 
 #about-section {
-    width: 100%;
-    height: 300px;
-    float: left;
+    height: 600px;
 }
 
-#register-section {
-    width: 100%;
-    height: 300px;
+#left-about {
     padding-top: 30px;
+    width: 33%;
     float: left;
 }
 
-#contact-section {
-    width: 100%;
-    height: 300px;
+#right-about {
     padding-top: 30px;
-    float: left;
+    width: 33%;
+    float: right;
 }
 
-#social-media {
-    width: 100%;
-    height: 300px;
+#center-about {
     padding-top: 30px;
-    float: left;
+    width: 33%;
+    margin: 0 auto;
 }
-
-
