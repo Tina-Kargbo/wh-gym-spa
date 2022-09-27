@@ -62,7 +62,7 @@ h1, h2 {
 }
 
 #hero-image {
-    height: 600px;
+    height: 550px;
     width: 100%;
     background: url('../images/pexels-jess-loiterton-400.jpg') center center;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@ h1, h2 {
 /* about section */
 
 #about-section {
-    height: 600px;
+    height: 200px;
 }
 
 #left-about {
@@ -163,4 +163,23 @@ hr {
     background: url('../images/woman-in-gym.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* contact section */
+
+#contact-section {
+    background-image: url('../images/woman-spa-1000-600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+#contact-section h2 {
+    color: white;
 }
