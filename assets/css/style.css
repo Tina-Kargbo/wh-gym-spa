@@ -183,3 +183,24 @@ hr {
 #contact-section h2 {
     color: white;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:rgba(126, 91, 3, 0.685)
+}
