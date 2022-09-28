@@ -250,10 +250,14 @@ footer {
     margin-left: 30px;
     margin-bottom: 20px;
     line-height: 25px;
-}
+    }
 
-#cover-text {
+    #cover-text {
     left: 0;
-}
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
 
 }
