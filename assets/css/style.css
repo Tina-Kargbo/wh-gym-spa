@@ -184,6 +184,15 @@ hr {
     color: white;
 }
 
+form {
+	margin-top: 3rem;
+    color: black;
+}
+
+form h1 {
+    color: black;
+}
+
 /* footer */
 
 footer {
