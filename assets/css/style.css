@@ -184,6 +184,8 @@ hr {
     color: white;
 }
 
+/* Registration form */
+
 form {
 	margin-top: 3rem;
     color: black;
@@ -191,6 +193,15 @@ form {
 
 form h1 {
     color: black;
+}
+
+.text-input {
+    background: white;
+    color: black;
+    margin: 5px 0 20px 0 center; 
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
 }
 
 /* footer */
