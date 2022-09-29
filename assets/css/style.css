@@ -9,7 +9,7 @@
 body {
     font-family: josefin, sans-serif;
     font-weight: 400;
-    color: rgba(126, 91, 3, 1);
+    color: darkgoldenrod;
 }
 
 /* headings and logo */
@@ -20,30 +20,6 @@ h1, h2 {
     color: rgba(126, 91, 3, 0.685);
 }
 
-/* #logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 35px;
-} */
-
-/* navigation links */
-
-/* #menu {
-    font-size: 100%;
-    letter-spacing: 5px;
-} */
-
-/* #menu, #logo {
-    line-height: 70px;
-} */
-
-
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 40px;
-} 
 
 #menu a {
     text-decoration: none;
@@ -59,7 +35,7 @@ h1, h2 {
 } 
 
 #cover-text, #cover-text h2 {
-    color: rgba(126, 91, 3, 1);
+    color: white;
 }
 
 #hero-image {
@@ -78,9 +54,9 @@ h1, h2 {
     height: 200px;
 
     padding-top: 5px;
-    padding-left: 10px; 
+    padding-left: 10px;
 
-    background-color: rgba(255, 255, 255, .6);  
+    background-color: rgba(0, 255, 255, .8);
 
     bottom: 75px;
     right: 40px;
@@ -145,7 +121,7 @@ hr {
 #about-us {
     text-align: center;
     margin: 0 0;
-    font-size: 150%;
+    font-size: 280%;
 }
 
 #circle-container {
@@ -175,7 +151,6 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
-    height: 400px;
     text-align: center;
     color: white;
     padding-top: 60px;
@@ -222,31 +197,91 @@ footer {
     color:rgba(126, 91, 3, 0.685)
 }
 
-
+#contact {
+    background-color: rgba(0,0,0,0.5);
+}
 /* Media Queries Responsive Sizes */
 
-/* For extra large to medium screen size from 1200px wide to 1025px */
+/* For larger to medium screen size from 1200px wide and down */
 
-@media screen (min-width: 1025px) and (max-width: 1200px) {
-    #about-section {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+
+#about-section {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+#logo {
+    padding: 30px 0;
+    margin: 0;
+}
+
+#left-about, #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+#center-about {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+hr {
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 320px)   and (max-width: 480px) {
+    header{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #menu {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    
+    #menu li {
+        width: 25%;
+        font-size: medium;
+        float: left;
+        margin-left: 5%;
+        position: relative;
+        display: inline;
+        text-align: center;
     }
 
     #logo {
-        padding: 30px 0;
-        margin: 0;
+        font-size: medium;
+        text-align: center;
+        line-height: 30px;
+        width: 90%;
+        margin-left: 5%;
     }
-
-    #cover-text{
+    #cover-text {
+        left: 0;
+    }
+    #home{
+        display: block;
         width: 100%;
+        position: relative;
+        margin-top: 50px;
+    }
+    #hero-image{
+        height: 300px;
+    }
+    #cover-text{
+        width: 97%;
         top: 65px;
         background-color: rgba(255, 255, 255, .6);
         color: rgba(126, 91, 3, 1);
         height: auto;
-        }
-
+    }
     #cover-text p{
         font-size: medium;
         padding-top: 25px;
@@ -259,40 +294,19 @@ footer {
         margin-top: 25px;
     }
 
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
+    #about-section{
+        width: 90%;
+        margin-left: 5%;
     }
 
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
+    #circle-container {
+        width: auto;
+        height: 250px;
     }
-
-    hr {
-        display: none;
+    #about-us{
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
-}
-
-/* For medium screen sizes from 950px wide and down */
-
-@media screen and (max-width: 950px) {
-
-    /* #menu {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
-    } */
-
-    #cover-text {
-    left: 0;
-    }
-
     .left-about-heading, .right-about-heading {
         width: inherit;
     }
@@ -306,22 +320,27 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
-}
+    .left-about-heading h2, .right-about-heading h2 {
+        margin-bottom: 10px;
+    }
+    #contact-section h2 {
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #contact label {
+        color: white;
+        width: 40%;
+        display: inline-block;
+        position: relative;
+    }
+    #contact input {
+        width: 60%;
+        position:relative;
+    }
+} 
 
-/* For small screen sizes from 645px wide and down */
-
-@media screen and (max-width: 645px) {
-
-    /* #hero-image {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }  */
-}    
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 481px)   and (max-width: 768px) {
     header{
         display: block;
         margin-bottom: 10px;
@@ -333,7 +352,7 @@ footer {
     }
     
     #menu li {
-        width: 5%;
+        width: 25%;
         font-size: medium;
         float: left;
         margin-left: 5%;
@@ -343,13 +362,125 @@ footer {
     }
 
     #logo {
-        font-size: small;
+        font-size: medium;
         text-align: center;
         line-height: 30px;
         width: 90%;
         margin-left: 5%;
     }
+    #cover-text {
+        left: 0;
+    }
+    #home{
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+    }
+    #hero-image{
+        height: 300px;
+    }
+    #cover-text{
+        width: 98%;
+        top: 65px;
+        background-color: rgba(255, 255, 255, .6);
+        color: rgba(126, 91, 3, 1);
+        height: auto;
+    }
+    #cover-text p{
+        font-size: medium;
+        padding-top: 25px;
+    }
+    #cover-text h2{
+        width: 100%;
+        color: rgba(126, 91, 3, 1);
+        display: block;
+        font-size: large;
+        margin-top: 25px;
+    }
 
+    #about-section{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #circle-container {
+        width: auto;
+        height: 300px;
+    }
+    #about-us{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .left-about-heading h2, .right-about-heading h2 {
+        margin-bottom: 10px;
+    }
+    #contact-section h2 {
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #contact label {
+        color: white;
+        width: 40%;
+        display: inline-block;
+        position: relative;
+    }
+    #contact input {
+        width: 60%;
+        position:relative;
+    }
+    #contact-section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+        
+} 
+
+@media only screen and (min-width: 769px)   and (max-width: 1024px) {
+    header{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #menu {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    
+    #menu li {
+        width: 25%;
+        font-size: medium;
+        float: left;
+        margin-left: 5%;
+        position: relative;
+        display: inline;
+        text-align: center;
+    }
+
+    #logo {
+        font-size: medium;
+        text-align: center;
+        line-height: 30px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #cover-text {
+        left: 0;
+    }
     #home{
         display: block;
         width: 100%;
@@ -374,14 +505,164 @@ footer {
         width: 100%;
         color: rgba(126, 91, 3, 1);
         display: block;
-        font-size: medium;
+        font-size: large;
         margin-top: 25px;
     }
 
     #about-section{
         width: 90%;
-        height: 100px;
-        margin-left: 0 auto;
+        margin-left: 5%;
+        height: 1000px;
+    }
+
+    
+    #about-us{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
         text-align: center;
     }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .left-about-heading h2, .right-about-heading h2 {
+        margin-bottom: 10px;
+    }
+    #contact-section h2 {
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #contact label {
+        color: white;
+        width: 40%;
+        display: inline-block;
+        position: relative;
+    }
+    #contact input {
+        width: 60%;
+        position:relative;
+    }
+    #contact-section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+        
+} 
+
+
+@media only screen and (min-width: 1025px)  {
+    header{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #menu {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    
+    #menu li {
+        width: 25%;
+        font-size: medium;
+        float: left;
+        margin-left: 5%;
+        position: relative;
+        display: inline;
+        text-align: center;
+    }
+
+    #logo {
+        font-size: medium;
+        text-align: center;
+        line-height: 30px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #cover-text {
+        left: 0;
+    }
+    #home{
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+    }
+    #hero-image{
+        height: 300px;
+    }
+    #cover-text{
+        width: 100%;
+        top: 65px;
+        background-color: rgba(255, 255, 255, .6);
+        color: rgba(126, 91, 3, 1);
+        height: auto;
+    }
+    #cover-text p{
+        font-size: medium;
+        padding-top: 25px;
+    }
+    #cover-text h2{
+        width: 100%;
+        color: rgba(126, 91, 3, 1);
+        display: block;
+        font-size: large;
+        margin-top: 25px;
+    }
+
+    #about-section{
+        width: 90%;
+        margin-left: 5%;
+        height: 1000px;
+    }
+
+    
+    #about-us{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .left-about-heading h2, .right-about-heading h2 {
+        margin-bottom: 10px;
+    }
+    #contact-section h2 {
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #contact label {
+        color: white;
+        width: 40%;
+        display: inline-block;
+        position: relative;
+    }
+    #contact input {
+        width: 60%;
+        position:relative;
+    }
+    #contact-section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+        
 } 
