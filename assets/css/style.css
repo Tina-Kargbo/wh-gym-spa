@@ -16,7 +16,6 @@ body {
 
 h1, h2 {
     font-family: josefin, sans-serif;
-    text-transform: ;
     letter-spacing: 2px;
     color: rgba(126, 91, 3, 0.685);
 }
@@ -191,14 +190,10 @@ form {
     color: black;
 }
 
-form h1 {
-    color: black;
-}
-
 .text-input {
     background: white;
     color: black;
-    margin: 5px 0 20px 0 center; 
+    margin: 5px 0; 
     border: 1px solid black;
     border-radius: 2px;
     text-align: center;
