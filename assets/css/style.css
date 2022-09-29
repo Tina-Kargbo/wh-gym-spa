@@ -9,7 +9,7 @@
 body {
     font-family: josefin, sans-serif;
     font-weight: 400;
-    color: darkgoldenrod;
+    color: rgba(126, 91, 3, 1);
 }
 
 /* headings and logo */
@@ -31,17 +31,19 @@ h1, h2 {
 /* #menu {
     font-size: 100%;
     letter-spacing: 5px;
-}
+} */
 
-#menu, #logo {
+/* #menu, #logo {
     line-height: 70px;
-}
+} */
+
+
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 40px;
-} */
+} 
 
 #menu a {
     text-decoration: none;
@@ -57,7 +59,7 @@ h1, h2 {
 } 
 
 #cover-text, #cover-text h2 {
-    color: white;
+    color: rgba(126, 91, 3, 1);
 }
 
 #hero-image {
@@ -76,9 +78,9 @@ h1, h2 {
     height: 200px;
 
     padding-top: 5px;
-    padding-left: 10px;
+    padding-left: 10px; 
 
-    background-color: rgba(0, 255, 255, .8);
+    background-color: rgba(255, 255, 255, .6);  
 
     bottom: 75px;
     right: 40px;
@@ -143,7 +145,7 @@ hr {
 #about-us {
     text-align: center;
     margin: 0 0;
-    font-size: 280%;
+    font-size: 150%;
 }
 
 #circle-container {
@@ -223,9 +225,9 @@ footer {
 
 /* Media Queries Responsive Sizes */
 
-/* For larger to medium screen size from 1200px wide and down */
+/* For extra large to medium screen size from 1200px wide to 1025px */
 
-@media screen and (max-width: 1200px) {
+@media screen (min-width: 1025px) and (max-width: 1200px) {
     #about-section {
         width: 65%;
         height: 1200px;
@@ -235,6 +237,26 @@ footer {
     #logo {
         padding: 30px 0;
         margin: 0;
+    }
+
+    #cover-text{
+        width: 100%;
+        top: 65px;
+        background-color: rgba(255, 255, 255, .6);
+        color: rgba(126, 91, 3, 1);
+        height: auto;
+        }
+
+    #cover-text p{
+        font-size: medium;
+        padding-top: 25px;
+    }
+    #cover-text h2{
+        width: 100%;
+        color: rgba(126, 91, 3, 1);
+        display: block;
+        font-size: large;
+        margin-top: 25px;
     }
 
     #left-about, #right-about {
@@ -299,7 +321,7 @@ footer {
     }  */
 }    
 
-@media only screen and (min-width: 320px)   and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
     header{
         display: block;
         margin-bottom: 10px;
@@ -311,7 +333,7 @@ footer {
     }
     
     #menu li {
-        width: 25%;
+        width: 5%;
         font-size: medium;
         float: left;
         margin-left: 5%;
@@ -321,7 +343,7 @@ footer {
     }
 
     #logo {
-        font-size: medium;
+        font-size: small;
         text-align: center;
         line-height: 30px;
         width: 90%;
@@ -352,12 +374,14 @@ footer {
         width: 100%;
         color: rgba(126, 91, 3, 1);
         display: block;
-        font-size: large;
+        font-size: medium;
         margin-top: 25px;
     }
 
     #about-section{
         width: 90%;
-        margin-left: 5%;
+        height: 100px;
+        margin-left: 0 auto;
+        text-align: center;
     }
 } 
