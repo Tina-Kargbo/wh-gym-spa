@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: josefin, sans-serif;
+    font-weight: 400;
+    color: darkgoldenrod;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: josefin, sans-serif;
+    letter-spacing: 2px;
+    color: rgba(126, 91, 3, 0.685);
+}
+
+/* #logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 35px;
+} */
+
+/* navigation links */
+
+/* #menu {
+    font-size: 100%;
+    letter-spacing: 5px;
+}
+
+#menu, #logo {
+    line-height: 70px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+} */
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid darkgoldenrod;
+}
+
+.active {
+    border-bottom: 1px solid darkgoldenrod;
+} 
+
+#cover-text, #cover-text h2 {
+    color: white;
+}
+
+#hero-image {
+    height: 700px;
+    width: 100%;
+    background: url('../images/pexels-jess-loiterton-400.jpg') center center;
+    background-repeat: no-repeat;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: josefin, sans-serif;
+    letter-spacing: 2px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 5px;
+    padding-left: 10px;
+
+    background-color: rgba(0, 255, 255, .8);
+
+    bottom: 75px;
+    right: 40px;
+
+    position: absolute;
+}
+
+/* about section */
+
+#about-section {
+    height: 200px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid rgba(126, 91, 3, 0.685);
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+#about-us {
+    text-align: center;
+    margin: 0 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgba(126, 91, 3, 0.685);
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+#circle-cover-bg {
+    background: url('../images/woman-in-gym.jpeg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* contact section */
+
+#contact-section {
+    background-image: url('../images/woman-spa-1000-600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+#contact-section h2 {
+    color: white;
+}
+
+/* Registration form */
+
+form {
+	margin-top: 3rem;
+    color: black;
+}
+
+.text-input {
+    background: white;
+    color: black;
+    margin: 5px 0; 
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:rgba(126, 91, 3, 0.685)
+}
+
+
+/* Media Queries Responsive Sizes */
+
+/* For larger to medium screen size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #about-section {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #logo {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    /* #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    } */
+
+    #cover-text {
+    left: 0;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+}
+
+/* For small screen sizes from 645px wide and down */
+
+@media screen and (max-width: 645px) {
+
+    /* #hero-image {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }  */
+}    
+
+@media only screen and (min-width: 320px)   and (max-width: 480px) {
+    header{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #menu {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    
+    #menu li {
+        width: 25%;
+        font-size: medium;
+        float: left;
+        margin-left: 5%;
+        position: relative;
+        display: inline;
+        text-align: center;
+    }
+
+    #logo {
+        font-size: medium;
+        text-align: center;
+        line-height: 30px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #home{
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+    }
+    #hero-image{
+        height: 300px;
+    }
+    #cover-text{
+        width: 100%;
+        top: 65px;
+        background-color: rgba(255, 255, 255, .6);
+        color: rgba(126, 91, 3, 1);
+        height: auto;
+    }
+    #cover-text p{
+        font-size: medium;
+        padding-top: 25px;
+    }
+    #cover-text h2{
+        width: 100%;
+        color: rgba(126, 91, 3, 1);
+        display: block;
+        font-size: large;
+        margin-top: 25px;
+    }
+
+    #about-section{
+        width: 90%;
+        margin-left: 5%;
+    }
+} 
