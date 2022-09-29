@@ -290,3 +290,15 @@ footer {
         padding: 0 20px;
     }
 }
+
+/* For small screen sizes from 645px wide and down */
+
+@media screen and (max-width: 645px) {
+
+    #hero-image {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    } 
