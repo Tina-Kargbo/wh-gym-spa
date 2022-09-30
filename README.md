@@ -1,108 +1,75 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+**Women's Health Gym and Spa**
 
-Welcome Tina-Kargbo,
+The Women's Health Gym and Spa (WHGS) is a  website that gives information about a gym and spa for women in Accra, Ghana. Many women in Accra have a lack of access to healthcare due to issues such as poverty, lack of time to dedicate to their self-care, and less freedom of movement due to cultural or religious grounds. WHGS was created to give women more access to health facilities and specialists to help women in their fitness and wellness journeys. 
+ The WHGS is aimed at all women living in Accra, Ghana. The WHGS is funded by the Women's Health Foundation, which is why it is free for all women. However, since the facilities are free to use for all women, it is important for potential users to register on the website, since WHGS operate on a first-come, first-served registration and booking system. Once their registration is approved, users will later be contacted and invited by WHGS to make their bookings for sessions at the gym and/or spa. 
+The WHGS not only provides free health and wellness facilites to women, it is also located on a private and secluded area near the beach. Since some women from certain cultural and religious groups may be uncomfortable sharing health and wellness facilities with men, the all-female staff in the gym and spa for only women should be confortable for women from all backgrounds to attend. The beautiful and secluded building and environment near the beach will also fulfill all the requirements of privacy that some women may want.
+The WHGS is targeted at all women living or visiting Accra, Ghana who want to make use of its facilities. However, more specifically, it targets women who may lack access to health, fitness and wellness facilities and specialists due to lack of finance, or discomfort sharing these kinds of facilities with men, especially due to cultural, religious, family or personal beliefs. The website  gives women initial information about WHGS, gives its contact details, and allow women to register for use of its facilities.
+  
+**Features**
+The webpage consists of three different sections (header, about us, contact) and a footer (social media links).
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**The Header Section**
+The header section includes the name ”Women's Health Gym and Spa” at the very top on the page so that users will immediately know the wesite that they are on. Underneath that sits the menu 	navigation bar, so that users that may only want specific bits of 	information may quickly navigate their way to the correct section.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Beneath the navigation bar, lies a hero-image with a photograph of the WHGS building in Accra next to the sea. When a user sees the photo, it should reflect the beauty of the building and environment around it, which should look inviting to users to go to. The size of the building can give the impression of the many probably facilities that it houses, and the secluded area of the building reflects how much privacy that women of different backgrounds can have within its grounds.
 
-## Gitpod Reminders
+Additionally, a white, transparent cover text box overlays the photograph , which does not hide the photograph behind it. Yet it also gives users initial important information of gym name, shows that it is free and for women, and that one should register and book for sessions. This should create greater interest for users to continue scrolling down the page.    
+ 
+The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+This section introduces the user to Love Running with an eye catching animation to grab their attention.
+Navigation Bar
+The navigation bar has a menu list of ”Home”, ”About Us” and ”Contact”. All three of these are linked to their respectively labelled sections throughout the webpage, which allows for easy navigation among the different sections. The ”Contact” section not only has the contact details of WHGS, it is also where the registration form can be found.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**About Us Section**
+The About Us section gives further bits of information about the WHGS labelled ”What we do”, ”Why we are free”, ”Free health professionals” and ”Contact and Register”. All of these fields give a little bit more understanding about the purpose of WHGS, why they are able to offer free services, what facilities they have and how to have access to their facilities and services through registration. This will encourage the user to register with WHGS and get information as to what users are signing up for.
 
-`python3 -m http.server`
+Underneath the information section is a bordered picture of a woman in a gym class with other women, to inspire users to think about what a typical WHGS class might look like. A visual form of information, in addition to the written form of information in the ”About Us” section will appeal to users to join this gym and spa. 
 
-A blue button should appear to click: _Make Public_,
+**Contact Section**
+The contact section underneath the ”About Us” section has the main contact details of WHGS and a registration form for users to register to become users of its facilities.
 
-Another blue button should appear to click: _Open Browser_.
+The registration form is in the contact section, because it is another way of making contact with WHGS. Thus anybody who wants to connect with WHGS via visiting at the stated address, phoning the stated number, or registering for their facilities can do so. Users are asked to give their name, address and email number and will not be able to submit an empty form.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Underneath the registration form, there is a background photo of a woman with a towel on her head and a smile, as she touches her face, giving users the impression of a satisfied, happy and relaxed customer. This shows the spa and relaxation aspect of WHGS, which would encourage visitors to go to the spa. 
 
-A blue button should appear to click: _Make Public_,
+**The Footer**
+The three social media links in the footer opens up onto their respective websites in another page once clicked on. The social media links are important to continuosly maintain the users interests when they follow WHGS. Additionally they can be alerted of any changes or news that WHGS may want to share with their users.
 
-Another blue button should appear to click: _Open Browser_.
+**Features Left to Implement**
+A booking form will be implemented later in order for users to book times and dates for the sessions that they would like to attend. The website will also have additional pages with information about the different facilities and sessions to be found at the gym and spa.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Testing**
+This project has screen size responsiveness on screen sizes: 
+320px-480px
+481px-768px
+769px-1024
+1025px-1200px
+1201px and above
 
-To log into the Heroku toolbelt CLI:
+Two minor bug were found within the CSS and HTML code validations, but they were easily solved, so there were no particularly interesting bugs found within this project.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**Validator Testing**
+There were no errors found when the CSS code was run through the official W3C validator.
+There were no errors found when the HTML code was run through the official W3C jigsaw validator.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+**Deployment**
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
-## Release History
+**Credits**
+Content
+The structure and layout of the project website was taken from the Code Institute's ”Love Running” tutorials.
+The icons used in the footer for the social media links came from the website, font awesome. Please see the link here: https://fontawesome.com/ 
+In page navigation links were taken from a YouTube tutorial. Please see the link here: https://www.youtube.com/watch?v=xSTVTT3cx0w
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Navigation links lessons were taken from my notes on the Code Institute's ”Nav Challenge” website. Please see the link here: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/889f243764aa4ac6b355edcce64af755/
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+The registration form were referenced from the Signup form challenges 1 and 2. on the Code Institute's website. 
+The Link through the submit button on the registration form was taken from the form challenge in the html secction of the Code Institute's website. Please see the link here: https://formdump.codeinstitute.net/"
+Media
+The photos used as the hero image on the ”home” section, the ”About Us section” and the ”contact” section of the webpage are from the www.pexels.com website.
