@@ -26,6 +26,7 @@ Additionally, a white, transparent cover text box overlays the photograph , whic
 <h2>Navigation Bar</h2>
 The navigation bar has a menu list of ”Home”, ”About Us” and ”Contact”. All three of these are linked to their respectively labelled sections throughout the webpage, which allows for easy navigation among the different sections. The ”Contact” section not only has the contact details of WHGS, it is also where the registration form can be found.
 
+
 <h2>About Us Section</h2>
 
 [picture of about us section top](documentation-images/about-us-section.1.png)
